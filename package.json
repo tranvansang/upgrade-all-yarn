@@ -1,0 +1,27 @@
+{
+  "name": "upgrade-all-yarn",
+  "version": "0.0.1",
+  "description": "Upgrade all yarn packages",
+  "main": "index.js",
+  "bin": {
+    "upgrade-all-yarn": "./index.js"
+  },
+  "scripts": {
+    "build": "yarn tsc --declaration index.ts",
+    "clean": "rm -rf index.js index.d.ts",
+    "prepublishOnly": "yarn build",
+    "test": "node index.js"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "repository": "git@github.com:tranvansang/upgrade-all-yarn.git",
+  "author": "Tran Sang <tr@nsang.me>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@types/node": "^14.6.3",
+    "typescript": "^4.0.2"
+  }
+}
