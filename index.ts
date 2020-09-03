@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import * as fs from 'fs'
 import * as childProcess from 'child_process'
 import {promisify} from 'util'
