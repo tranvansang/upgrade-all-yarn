@@ -1,6 +1,6 @@
 {
   "name": "upgrade-all-yarn",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Upgrade all yarn packages",
   "main": "index.js",
   "bin": {
